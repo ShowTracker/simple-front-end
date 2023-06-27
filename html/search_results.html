@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ShowTracker</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="top-rectangle"></div>
+  <div class="menu-nav">
+    <img class="logo-img" src="../img/Logo_svg.svg" alt="ShowTracker">
+    <ul class="menu-opts">
+      <li><a href="./home.html">Home</a></li>
+      <li><a href="./perfil.html">Perfil</a></li>
+      <li><a href="./login.html">Logout</a></li>
+    </ul>
+  </div>
+
+    <p id="page-message">Search results for "Godfather"</p>
+    <form id="search-form">
+        <input type="text" name="search-query" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="media-item">
+                <h2>The Godfather</h2>
+                <p>Type: Movie</p>
+                <p>Release Year: 1972</p>
+                <p>Duration: 175 minutes</p>
+                <button id="delete-media">Remove</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="media-item">
+                <h2>The Godfather Part II</h2>
+                <p>Type: Movie</p>
+                <p>Release Year: 1974</p>
+                <p>Duration: 202 minutes</p>
+                <button id="add-media">Add</button>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="media-item">
+                <h2>The Godfather Part III</h2>
+                <p>Type: TV Series</p>
+                <p>Release Year: 1990</p>
+                <p>Duration: 162 minutes</p>
+                <button id="add-media">Add</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
